@@ -15,10 +15,9 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Program:
 ```
-/*
-Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by:  DHANUSH RAJAN T
 RegisterNumber:  25013743
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -94,7 +93,7 @@ fig, ax = plt.subplots(figsize=(7, 6))
 im = ax.imshow(cm, cmap='YlGnBu')
 plt.colorbar(im)
 
-# Change text color here
+
 for i in range(cm.shape[0]):
     for j in range(cm.shape[1]):
         ax.text(j, i, cm[i, j],
@@ -117,11 +116,10 @@ ax.set_title("Placement Prediction Confusion Matrix")
 
 plt.tight_layout()
 plt.show()
-*/
+
 ```
 
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
 ![Screenshot (47)](https://github.com/user-attachments/assets/12262127-f34a-46e3-a771-84597836d221)
 ![Screenshot (48)](https://github.com/user-attachments/assets/21000bdf-abd3-4f0b-b2fe-e3174758a8cf)
 
